@@ -1,7 +1,11 @@
 ## Connecting to pfsense UPS master server from Synology NAS
+
 Configuration:
 - Synology NAS (example: LAN IP is 192.168.0.5)
+- Synology NAS software version at time of testing was 4.4.1.1216(2020/02/14)
 - pfsense box / firewall (example shown: LAN IP is 192.168.0.1)
+- pfsense version as time of testing was 2.4.4-RELEASE-p3
+
 - UPS connected via USB to pfsense server (Testing: CyberPower branded UPS)
 
 ## Configure pfsense to connect to UPS via usb
@@ -21,8 +25,6 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 ## Configure Synology NAS to connect to pfsense for UPS information
 
-**Synology NAS OS version at time of testing was: 4.4.1.1216 (2020/02/14)**
-
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
 **Enable "Network UPS slave" in "External Device" of Synology control panel**
@@ -31,7 +33,8 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 ## Optional: Advanced Synology configuration changes
 
-Advanced UPS configuration changes can be made to the Synology NAS - using SSH (has to be enabled first) in Control Panel > Network & File Services > Telnet / SSH. 
+Advanced UPS configuration changes can be made to the Synology NAS - using SSH (SSH access has to be enabled first):
+Control Panel > Network & File Services > Telnet / SSH
 
 UPS configuration files are located in `/etc/config/ups/`
 
