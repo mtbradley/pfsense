@@ -7,7 +7,7 @@ Configuration:
 - pfsense version at time of testing was 2.4.4-RELEASE-p3
 - UPS connected via USB to pfsense box (Testing: CyberPower Value Pro VP1600ELCD)
 
-## Configure pfsense to connect to UPS via usb
+## Configure pfsense to connect to UPS via USB
 
 **Install Network UPS Tools (nut) from package manager**
 
