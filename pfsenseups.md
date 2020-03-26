@@ -24,6 +24,6 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
-**Enable "Network UPS slave" in external hardware of Synology control panel**
+**Enable "Network UPS slave" in "External Device" of Synology control panel**
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="800">
