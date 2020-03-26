@@ -11,9 +11,13 @@ Configuration:
 
 **Install nut from package manager**
 
+pfsense > System > Package Manager
+
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_package.png" width="800">
 
 **Configure UPS NUT package**
+
+pfsense > Services > UPS
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_1_of_2.png" width="800">
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_2_of_2.png" width="800">
