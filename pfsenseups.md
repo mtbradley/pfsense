@@ -15,6 +15,7 @@ Configuration:
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_2_of_2.png" width="800">
 
 **You may need to restart the pfsense system before it will recognise the UPS**
+
 Alternatively you can SSH into the pfsense box and run the following command:
 `/etc/rc.d/devfs restart`
 
@@ -27,3 +28,10 @@ Alternatively you can SSH into the pfsense box and run the following command:
 **Enable "Network UPS slave" in "External Device" of Synology control panel**
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="800">
+
+## Optional: Advanced Synology configuration changes
+
+Configuration changes can be made by using SSH to your Synology NAS (has to be enabled first) in Control Panel > Network & File Services > Telnet / SSH. 
+
+UPS configuration files are located in `/etc/config/ups/`
+
