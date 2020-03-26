@@ -1,11 +1,11 @@
 ## Communicating with a pfsense connected UPS from Synology NAS
 
 Configuration:
-- Synology NAS (example: LAN IP is 192.168.0.2)
+- Synology NAS (LAN IP is 192.168.0.2)
 - Synology NAS software version at time of testing was 4.4.1.1216(2020/02/14)
-- pfsense box / firewall (example shown: LAN IP is 192.168.0.1)
+- pfsense box / firewall (LAN IP is 192.168.0.1)
 - pfsense version at time of testing was 2.4.4-RELEASE-p3
-- UPS connected via USB to pfsense box (Testing: CyberPower Value Pro VP1600ELCD)
+- UPS connected via USB to pfsense box (Model used for testing: CyberPower Value Pro VP1600ELCD)
 
 ## Configure pfsense to connect to UPS via USB
 
