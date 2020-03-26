@@ -10,6 +10,7 @@ Configuration:
 
 ## Configure Synology NAS to connect to pfsense for UPS information
 **Synology NAS OS version at time of testing was: 4.4.1.1216 (2020/02/14)**
+
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
 
