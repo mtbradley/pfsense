@@ -1,4 +1,4 @@
-## Communicating with a pfsense connected UPS from Synology NAS
+## pfsense connected UPS and Synology NAS
 
 Configuration:
 - pfsense box / firewall (LAN IP is 192.168.0.1)
