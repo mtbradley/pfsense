@@ -1,4 +1,4 @@
-## Connecting to pfsense UPS master server from Synology NAS
+## How to connect to a pfsense UPS master server from Synology NAS
 
 Configuration:
 - Synology NAS (example: LAN IP is 192.168.0.5)
