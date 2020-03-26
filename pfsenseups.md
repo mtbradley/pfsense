@@ -4,18 +4,18 @@ Configuration:
 - Synology NAS (example: LAN IP is 192.168.0.2)
 - Synology NAS software version at time of testing was 4.4.1.1216(2020/02/14)
 - pfsense box / firewall (example shown: LAN IP is 192.168.0.1)
-- pfsense version as time of testing was 2.4.4-RELEASE-p3
+- pfsense version at time of testing was 2.4.4-RELEASE-p3
 - UPS connected via USB to pfsense box (Testing: CyberPower Value Pro VP1600ELCD)
 
 ## Configure pfsense to connect to UPS via usb
 
-**Install nut from package manager**
+**Install Network UPS Tools (nut) from package manager**
 
 pfsense > System > Package Manager
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_package.png" width="800">
 
-**Configure UPS NUT package**
+**Configure UPS nut package**
 
 pfsense > Services > UPS
 
