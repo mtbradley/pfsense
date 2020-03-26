@@ -11,8 +11,8 @@ Configuration:
 
 **Configure UPS NUT package**
 
-<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_1_of_2.png">
-<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_2_of_2.png">
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_1_of_2.png" width="800">
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_2_of_2.png" width="800">
 
 **You may need to restart the pfsense system before it will recognise the UPS**
 Alternatively you can SSH into the pfsense box and run the following command:
@@ -26,4 +26,4 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 **Enable "Network UPS slave" in external hardware of Synology control panel**
 
-<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png">
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="800">
