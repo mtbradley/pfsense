@@ -1,5 +1,5 @@
 # pfsense
-pfsense setup guides and helpful information
+**pfsense setup guides and configuration information**
 
 [Connecting to a pfsense connected UPS from Synology NAS](../master/pfsenseups.md)
 
