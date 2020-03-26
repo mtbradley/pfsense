@@ -31,7 +31,7 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 ## Optional: Advanced Synology configuration changes
 
-Configuration changes can be made by using SSH to your Synology NAS (has to be enabled first) in Control Panel > Network & File Services > Telnet / SSH. 
+Advanced UPS configuration changes can be made to the Synology NAS - using SSH (has to be enabled first) in Control Panel > Network & File Services > Telnet / SSH. 
 
 UPS configuration files are located in `/etc/config/ups/`
 
