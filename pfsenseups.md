@@ -20,5 +20,6 @@ Configuration:
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
+**Enable UPS in external hardware of Synology control panel**
 
-
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="200">
