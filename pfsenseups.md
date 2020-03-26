@@ -7,7 +7,7 @@ Configuration:
 ## Configure pfsense to connect to UPS via usb
 
 **Install nut from package manager**
-<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_package.png">
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_package.png" width="800">
 
 **Configure UPS NUT package**
 
