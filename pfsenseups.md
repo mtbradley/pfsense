@@ -25,8 +25,6 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 ## Configure Synology NAS to connect to pfsense for UPS information
 
-<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
-
 **Enable "Network UPS slave" in "External Device > UPS" of Synology Control Panel**
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="800">
