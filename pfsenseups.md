@@ -6,11 +6,11 @@ Configuration:
 
 ## Configure pfsense to connect to UPS via usb
 **Install nut from package manager**
-![pfsense nut package](/ups/pfsense_ups_config_package.png)
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_package.png">
 
 ## Configure Synology NAS to connect to pfsense for UPS information
 **Synology NAS OS version at time of testing was: 4.4.1.1216 (2020/02/14)**
-![Synology Version](/ups/synology_nas_ups_version.png){:height="36px" width="36px"}
+<img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
 
 
