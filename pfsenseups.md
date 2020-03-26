@@ -24,6 +24,8 @@ pfsense > Services > UPS
 
 **You may need to restart the pfsense system before it will recognise the UPS**
 
+pfsense > Diagnostics > Reboot
+
 Alternatively you can SSH into the pfsense box and run the following command:
 `/etc/rc.d/devfs restart`
 
