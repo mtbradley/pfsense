@@ -28,11 +28,11 @@ Alternatively you can SSH into the pfsense box and run the following command:
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_version.png" width="200">
 
-**Enable "Network UPS slave" in "External Device" of Synology control panel**
+**Enable "Network UPS slave" in "External Device > UPS" of Synology Control Panel**
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/synology_nas_ups_slave.png" width="800">
 
-## Optional: Advanced Synology configuration changes
+## Optional: Advanced Synology NAS UPS configuration changes
 
 Advanced UPS configuration changes can be made to the Synology NAS - using SSH (SSH access has to be enabled first):
 Control Panel > Network & File Services > Telnet / SSH
