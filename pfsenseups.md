@@ -1,7 +1,7 @@
 ## Connecting to pfsense UPS master server from Synology NAS
 Configuration:
 - Synology NAS (example: LAN IP is 192.168.0.5)
-- pfsense server / firewall (example shown: LAN IP is 192.168.0.1)
+- pfsense box / firewall (example shown: LAN IP is 192.168.0.1)
 - UPS connected via USB to pfsense server (Testing: CyberPower branded UPS)
 
 ## Configure pfsense to connect to UPS via usb
@@ -13,6 +13,10 @@ Configuration:
 
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_1_of_2.png">
 <img src="https://raw.githubusercontent.com/mtbradley/pfsense/master/ups/pfsense_ups_config_2_of_2.png">
+
+**You may need to restart the pfsense system before it will recognise the UPS**
+Alternatively you can SSH into the pfsense box and run the following command:
+`/etc/rc.d/devfs restart`
 
 ## Configure Synology NAS to connect to pfsense for UPS information
 
